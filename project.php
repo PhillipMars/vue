@@ -16,8 +16,7 @@
 </head>
 <body>
 <!--header-->
-	<!--nav-->    
-  <div class="wrapper row1 navbar-inverse navbar-fixed-top" id="MainNavWrapper">
+<div class="wrapper row1 navbar-inverse navbar-fixed-top" id="MainNavWrapper">
   <header id="header"> 
     <div id="logo" class="fl_left">
       <a href="index.php"><img src="img/logo.gif" width="150px" height="30px">
@@ -26,8 +25,8 @@
     <nav id="mainav" class="fl_right">
       <ul>
         <li><a href="index.php">Home</a></li>
-						<li><a href="product.php">Products</a></li>
-						<li><a href="project.php">Projects</a></li>
+                        <li><a href="product.php">Products</a></li>
+                        <li><a href="project.php">Projects</a></li>
                         <li><a href="workplace.php">Workplace</a></li>
                         <li><a href="workflow.php">Workflow</a></li>
                          <li><a href="about.php">About Us</a></li>
@@ -46,8 +45,7 @@
     </nav>
   </header>
 </div> 
-   <!-- end navbar -->
-<!--photo slide-->
+  <!--nav-->    
 <div class="container">
         <section>
         <div class="carousel slide" id="product-carousel">
@@ -87,7 +85,9 @@
          <a href="#product-carousel" class="carousel-control right" data-slide="next"><img src="img/right.jpg" width="40px"></a>
         </div>               
         </section>
-</div> 
+</div>    <!-- end navbar -->
+<!--photo slide-->
+ 
 <!-- end photo slide-->
   <!--end header-->
 <!-- Content -->
@@ -104,21 +104,21 @@
         <div class="span4"><h5 align="center">Pokka Project</h5><li class="box"><a href="img/pokka3.jpg" class="magnifier" ><img alt="" src="img/pokka3.jpg"></a></li></div>
         </div>
         <hr/>
-      	<div class="row">
+        <div class="row">
         <div class="span4"><h5 align="center">MPT Project- ATS</h5><li class="box"><a href="img/mpt.jpg" class="magnifier" ><img alt="" src="img/mpt.jpg"></a></li></div>
         <div class="span4"><h5 align="center">Jotun Project</h5><li class="box"><a href="img/jotun2.jpg" class="magnifier" ><img alt="" src="img/jotun2.jpg"></a></li></div>
         <div class="span4"><h5 align="center">Jotun Project</h5><li class="box"><a href="img/jotun3.jpg" class="magnifier" ><img alt="" src="img/jotun3.jpg"></a></li></div>
         </div><hr/>
-        </div>
+        
            
 <!-- FOOTER -->
- <div class="container">
+<div class="container">
 <div class="row-fluid">
     <div class="span4"><p>No.19-1/323(B), Met Khayar Min Thar Gyi Road,<br>
-						Shwe Pauk Kan Industrial Zone, Yangon, Myanmar<br>
-						Tel:(+95-1) 695364, 696014, 09-250666832 <a href="mpec@mpecmyanmar.com">mpec@mpecmyanmar.com</a>, <a href="#">yehtoot@mpecmyanmar.com.mm</a><br>
+            Shwe Pauk Kan Industrial Zone, Yangon, Myanmar<br>
+            Tel:(+95-1) 695364, 696014, 09-250666832 <a href="mpec@mpecmyanmar.com">mpec@mpecmyanmar.com</a>, <a href="#">yehtoot@mpecmyanmar.com.mm</a><br>
           Website:<a href="www.mpecmyanmar.com">www.mpecmyanmar.com</a>
-	</p></div>
+  </p></div>
         <div class="span4 muted"><p>&nbsp; </p>
           <p>&nbsp;</p>
           <p>&nbsp;</p>
@@ -129,7 +129,7 @@
         <div class="span4">
      <div class="social-icons">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <ul class="inline">
-							<li><a href="http://www.facebook.com" class="facebook-icon"><img src="img/facebook-icon.png"></a>
+              <li><a href="http://www.facebook.com" class="facebook-icon"><img src="img/facebook-icon.png"></a>
                             <a href="http://www.linkedin.com" class="linkedin-icon"><img src="img/linlkedIn.png"></a></li>
         </ul>
         </div></div>
@@ -141,7 +141,7 @@
 <script src="js/jquery.easing.1.3.js"></script>
 <script src="js/touchTouch.jquery.js"></script>
 <script src="js/jquery.preloader.js"></script>
-<script>if($(window).width()>1024){document.write("<"+"script src='js/jquery.preloader.js'></"+"script>");}	</script>
+<script>if($(window).width()>1024){document.write("<"+"script src='js/jquery.preloader.js'></"+"script>");} </script>
 <script>
 jQuery(window).load(function () {
     $x = $(window).width();
@@ -158,12 +158,13 @@ jQuery(window).load(function () {
 </script>
 <script src="js/bootstrap.js"></script>
     <script src="js/mobile.js"/></script>
-	<script>
-		$(document).ready(function(){
-			$('.carousel').carousel({
-				interval: 5000
-			});
-		});
-	</script>
+  <script>
+    $(document).ready(function(){
+      $('.carousel').carousel({
+        interval: 5000
+      });
+    });
+  </script>
+  </div>
 </body>
 </html>
